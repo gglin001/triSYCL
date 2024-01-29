@@ -97,7 +97,8 @@ endfunction(declare_trisycl_test)
 
 # Recurse into tests dir to pick up unit tests
 add_subdirectory(2014-04-21-HPC-GPU_Meetup)
-add_subdirectory(acap)
+# disbale for building without gtkmmm
+# add_subdirectory(acap)
 add_subdirectory(accessor)
 add_subdirectory(address_spaces)
 add_subdirectory(aie-axi-stream)

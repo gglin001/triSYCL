@@ -1,0 +1,8 @@
+{
+    "clangd.path": "/root/micromamba/envs/pyenv/bin/clangd",
+    "cmake.configureSettings": {
+        "CMAKE_INSTALL_PREFIX": "${workspaceFolder}/build/install",
+        // "TRISYCL_OPENCL": true,
+        "TRISYCL_OPENCL": false,
+    },
+}

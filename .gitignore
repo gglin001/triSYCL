@@ -11,3 +11,5 @@
 *.cxx
 *.xpirbc
 build/
+
+.vscode/
